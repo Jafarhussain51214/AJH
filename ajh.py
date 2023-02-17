@@ -1,7 +1,7 @@
 import os
-os.system('pkg install pyDes')
-os.system('pkg install requests')
-os.system('pkg install bs4')
+os.system('pip install pyDes')
+os.system('pip install requests')
+os.system('pip install bs4')
 try:
     c = os.system('./jafar')
     if c == 100:
